@@ -1,0 +1,634 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+/* header */
+
+.header {
+    background-image: url(./img/imgHeader/bgHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.header_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 296px;
+    height: 74px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.header_down {
+    background-image: url(./img/imgHeader/yellowBg.png);
+    width: 80vh;
+    height: 44vh;
+    margin: 45vh 0 0 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_title {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    font-size: 7vh;
+    height: 40vh;
+}
+
+.text_title {
+    padding: 40px 50px;
+}
+
+.btn_header {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #F8F200;
+    padding: 10px ;
+    margin: 0 50px;
+    width: 50%;
+    height: 25%;
+    float: left;
+    font-size: 24px;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.btn_header:hover {
+    background-color: #454141;
+
+}
+
+/* history */
+
+.container {
+    margin: 0 100px;
+}
+
+.history {
+    margin: 100px 0;
+}
+
+.history_title {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    width: 80%;
+    margin: 0 0 30px 0;
+}
+
+.history_subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 60%;
+    line-height: 34px;
+    color: grey;
+    margin: 0 0 30px 0;
+}
+
+.history_subtitle span {
+    color: #52BEDC;
+}
+
+.images {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
+    margin: 0 30px 0 0;
+}
+
+.imgTop {
+    margin: 0 0 30px 0;
+}
+
+.surprise {
+    height: 100vh;
+    background-color: #000;
+}
+
+.foot_transition img {
+    width: 100%;
+}
+
+.suprise_holder {
+    display: flex;
+}
+
+.surprise_head {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 7vh;
+    font-weight: 400;
+    margin: 0 0 50px 0;
+
+}
+
+.surprise_head img {
+    width: 15%;
+    height: 15%;
+    margin: 0 30px;
+}
+
+.surprise_title {
+    margin: 50px 0 0 0;
+}
+
+.person_info {
+    margin: 100px 0 0 0;
+}
+
+.surprise_subtitle {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    /* font-size: 18px; */
+    line-height: 34px;
+    width: 80%;
+}
+
+.surprise_subtitle span {
+    color: #52BEDC;
+}
+
+.input_site {
+    outline: none;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 465px;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.button_surprise {
+    width: 180px;
+    height: 60px;
+    background-color: #E9E400;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    margin: 50px 0;
+    transition: 0.3s ;
+    cursor: pointer;
+}
+
+.button_surprise:hover {
+    background-color: #878518 ;
+}
+
+.decoration_image {
+    display: flex;
+    padding: 50vh 0 0 0;
+}
+
+.decoration_image img {
+    width: 100%;
+}
+
+
+/* advertising */
+
+.advertising {
+    height: 100vh;
+    background-color: #F8F200;
+}
+
+.left_icons {
+    text-align: center;
+}
+
+.holder_advertising {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.right_info {
+    width: 625px;
+}
+
+.advertising_title {
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.advertising_subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.advertising_suptitle {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+
+}
+
+.advertising_suptitle img {
+    margin: 10px 10px 0 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+}
+
+.button_advertising {
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: #000000;
+    color: #F8F200;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    margin: 50px 0;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+.button_advertising:hover {
+    background-color: #484848;
+}
+
+/* sales */
+
+.sales {
+    height: 80vh;
+    display: flex;
+}
+
+.sales_left {
+    width: 50%;
+}
+
+.sales_left img {
+    width: 100%;
+    height: 80vh;
+}
+
+.sales_right {
+    background-color: #000;
+    color: #fff;
+    width: 50%;
+    padding: 50px 30px;
+}
+
+.sales_title {
+    font-family: "Orbitron", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+
+.sales_suptitle {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    margin: 25px 0;
+}
+
+.sales_suptitle img {
+    margin: 0 10px 0 0;
+}
+
+.sales_subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    color: #52BEDC;
+    margin: 15px 0;
+}
+
+/* footer */
+
+.top_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.footer_text span{
+    margin: 0 15px;
+}
+
+.loges img {
+    margin: 0 30px;
+}
+
+.bottom_footer {
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1350px) {
+    .images {
+        display: block;
+    }
+
+    .container {
+        margin: 0 50px;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+
+    .left img {
+        margin: 0 30px 0 0;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .right img {
+        width: 952px;
+    }
+
+    .person_info {
+        margin: 30px 0 0 0;
+    }
+
+    .surprise_head {
+        margin: 0 0 20px 0;
+    }
+
+    .left_images img {
+        width: 80%;
+        display: flex;
+    }
+
+    .left_icons {
+        margin: 0 0 20% 0;
+    }
+
+    .advertising_title {
+        font-size: 30px;
+        margin: 15xp 0;
+    }
+
+    .advertising_subtitle {
+        font-size: 12px;
+        margin: 15px 0;
+        line-height: 20px;
+    }
+
+    .advertising_subtitle {
+        font-size: 12px;
+    }
+    
+    .sales_title {
+        font-size: 30px;
+    }
+
+    .sales_subtitle {
+        font-size: 18px;
+    }
+
+    .sales_suptitle  {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 1140px) {
+    .header_down {
+        margin: 42vh 0 0 50%;
+    }
+    .left img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 905px) {
+    .header_down {
+        margin: 42vh 0 0 0;
+    }
+    .decoration_image {
+        padding: 10vh 0 0 0;
+        display: block;
+    }
+    .advertising_title {
+        font-size: 30px;
+        margin: 15px 0 0 0;
+    }
+}
+
+@media(max-width: 768px) {
+    .right img {
+        width: 95%;
+    }
+}
+
+@media(max-width: 743px) {
+    .surprise {
+        display: block;
+    }
+    .decoration_image {
+        display: flex;
+        padding: 20px 0 0 0;
+    }
+
+    .surprise_subtitle {
+        text-align: center;
+        width: 100%;
+    }
+
+    .holder_advertising {
+        display: block;
+    }
+
+    .suprise_holder {
+        display: block;
+    }
+
+    .advertising_subtitle {
+        height: 80px;
+    }
+
+    .right_info {
+        width: 100%;
+    }
+}
+
+@media(max-width: 550px) {
+    .container {
+        margin: 0 20px;
+    }
+    .history_subtitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sales_left {
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sales_right {
+        width: 70%;
+    }
+}
+
+@media (max-width: 427px) {
+    .header_line {
+        display: block;
+        text-align: center;
+    }
+
+    .nav {
+        text-align: center;
+        display: inline;
+    }
+
+    .surprise_title {
+        font-size: 25px;
+    }
+
+    .header_down {
+        width: 100%;
+        margin: 67vh 0 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+    }
+
+    .btn_header {
+        margin: 0 25%;
+    }
+
+    .header_title {
+        font-size: 46px;
+    }
+
+    .input_site {
+        width: 100%;
+    }
+    .sales {
+        display: block;
+        height: 100vh;
+    }
+
+    .sales_left {
+        display: block;
+        height: 30vh;
+        width: 100%;
+
+    }
+    .sales_left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sales_right {
+        width: 100%;
+        display: block;
+        height: 70vh;
+        padding: 5px;
+    }
+
+    .left {
+        display: block;
+    }
+
+    .left img{
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .right img{
+        width: 100%;
+    }
+
+    .top_footer {
+        display: block;
+    }
+
+    .loges {
+        background-color: #fff;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .footer {
+        height: 100vh;
+    }
+
+    .footer_text {
+        background-color: #D5D5D5;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .top_footer {
+        margin: 0;
+    }
+
+    .history_title {
+        font-size: 30px;
+        width: 100%;
+    }
+}
