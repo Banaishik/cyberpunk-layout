@@ -631,4 +631,8 @@ body {
         font-size: 30px;
         width: 100%;
     }
+
+    .button_surprise {
+        margin: 20px 0;
+    }
 }
