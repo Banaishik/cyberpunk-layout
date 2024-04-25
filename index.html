@@ -10,10 +10,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Noto+Sans+Khojki&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Document</title>
 </head>
 <body>
     <div class="header">
+        <div class="header_holder">
+            <img src="./img/imgHeader/bgHeader.jpg"/>
+            <img src="./img/imgHeader/slide2.png" />
+            <img src="./img/imgHeader/slide3.png" />            
+        </div>
         <div class="header_line">
             <div class="logo">
                 <img src="./img/imgHeader/logo.png" />
@@ -38,19 +44,18 @@
         </div>
         <div class="header_down">
             <div class="header_title">
-                <div class="text_title">
-                   Available on <br/> all platforms 
+                <div class="text_title wow animate__animated animate__fadeInRight">
+                Available on <br/> all platforms 
                 </div>
                 <div class="bg_title">
                     <button class="btn_header">To learn more</button>
                 </div>
             </div>
-
         </div>
     </div>
     <div class="history">
         <div class="container">
-            <div class="history_title">Night City will change you forever!</div>
+            <div class="history_title wow animate__animated animate__fadeInLeft">Night City will change you forever!</div>
             <div class="history_subtitle"><span>Cyberpunk 2077 -</span> is an adventure role-playing game set in the metropolis of Night City, where power, luxury, and body modification are valued above all else. You play as V, a mercenary in search of a device that will allow you to gain immortality. You'll be able to change your character's cyber implants, skills, and playstyle while exploring an open world where your actions affect the course of the plot and everything that surrounds you.</div>
             <div class="images">
                 <div class="left">
@@ -87,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="decoration_image">
+                <div data-wow-duration="2s" class="decoration_image wow animate__animated animate__fadeInRight">
                     <div>
                         <img src="./img/imgSurprise/xbox.png"/>
                     </div>
@@ -178,5 +183,10 @@
             <img src="./img/imgFooter/specialText.png" />
         </div>
     </div>
+    <script src="./script.js"></script>
+    <script src="./wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
